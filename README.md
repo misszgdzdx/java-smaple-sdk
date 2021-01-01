@@ -1,6 +1,7 @@
 # java-simple-sdk
 
-#### 参考自：https://blog.csdn.net/qq_35433926/article/details/99317773；https://www.jdon.com/idea/publish-to-center-maven.html
+#### 参考自：https://blog.csdn.net/qq_35433926/article/details/99317773
+#### https://www.jdon.com/idea/publish-to-center-maven.html
 
 #### 主要目的：上传自己开发的sdk到maven中央仓库
 
@@ -18,7 +19,7 @@
   
   * 将本地项目上传至上述代码托管平台
   
-  * 注册sonatype: https://issues.sonatype.org/secure/Signup!default.jspa；注册后请保管好用户名和密码
+  * 注册sonatype: https://issues.sonatype.org/secure/Signup!default.jspa； 注册后请保管好用户名和密码
   
   * 登陆sonatype，点击顶部tab新建表单；这里需要注意groupId和自己的域名有关
     ```$xslt
@@ -93,10 +94,10 @@
   
   * 上传项目：在项目根目录下输入`mvn clean deploy -Dmaven.test.skip=true`等待完成上传
   
-  * 查看项目：https://oss.sonatype.org/#welcome；这里大概两个小时会同步过来：https://mvnrepository.com
+  * 查看项目：https://oss.sonatype.org/#welcome； 这里大概两个小时会同步过来：https://mvnrepository.com
   
   * 关闭jira：关闭sonatype的jira并说句感谢，sdk上传至maven仓库完毕
   
     
-> 备注：上传到中央仓库的pom.xml是用的release-pom.xml中设置
+> 备注：上传到中央仓库的pom.xml是用的release-pom.xml中设置  
 > 结束：感谢参考的两个地址，我只是自己写一遍加深印象，有需要参考的朋友们，也可以参考，不足之处请指出
