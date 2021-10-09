@@ -1,4 +1,4 @@
-# java-simple-sdk
+# java-sdk-maven
 
 #### 参考自：https://blog.csdn.net/qq_35433926/article/details/99317773
 #### https://www.jdon.com/idea/publish-to-center-maven.html
